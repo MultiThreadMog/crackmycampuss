@@ -11,7 +11,7 @@ def scale_coord(coord):
     return int(coord * SCALE)
 
 # Original single junction lane config (for reference)
-SINGLE_JUNCTION_LANES = {
+'''SINGLE_JUNCTION_LANES = {
     "bottom": {
         "spawn": [("bottom_right", 459, 1060), ("bottom_left", 512, 1060)],
         "stop_y": 685,
@@ -36,7 +36,7 @@ SINGLE_JUNCTION_LANES = {
         "move": (-1, 0),
         "density": 0.006 
     }
-}
+}'''
 
 # Junction offsets
 JUNCTION_OFFSETS = {
